@@ -28,6 +28,7 @@ export default function App() {
     });
   }
 
+  // This function is in charge of checking and unckecking items:
   function toggleTodo(id, completed) {
     setTodos((currentTodos) => {
       return currentTodos.map((todo) => {
