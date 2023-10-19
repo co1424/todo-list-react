@@ -52,7 +52,7 @@ export default function App() {
     <>
       {/* This is importing the form onto the main app file. */}
       <NewTodoForm onSubmit={addTodo} />
-      <h1 className="">Todo List</h1>
+      
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
     </>
   );
