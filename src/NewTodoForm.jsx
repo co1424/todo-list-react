@@ -25,7 +25,7 @@ export function NewTodoForm({ onSubmit }) {
           id="item"
         />
       </div>
-      <button className="btn">Add</button>
+      <button className="btn">Add to List</button>
     </form>
   );
 }
